@@ -1,11 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 body {
-  @apply bg-gray-100 text-gray-900;
+  background-color: #f3f4f6; /* fallback light mode */
+  color: #111827; /* fallback dark text */
 }
 
 .dark body {
-  @apply bg-gray-900 text-gray-100;
+  background-color: #111827;
+  color: #f3f4f6;
+}
+
+input, button {
+  color: inherit;
 }
