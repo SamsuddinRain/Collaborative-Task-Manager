@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Saim@@786",
+    "database": "collab_task_manager",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
